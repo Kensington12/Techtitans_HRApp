@@ -1,7 +1,7 @@
 //Austin Bell
 // CSC 325 Classes Assignment
 
-package com.example.HR_AppJava.BasicClassesCodingAssignment;
+package src.main.java.com.example.HR_AppJava.BasicClassesCodingAssignment;
 
 
 // Sets a job title and experience level in months, gets the title and experience, and finally displays the job title and experience
