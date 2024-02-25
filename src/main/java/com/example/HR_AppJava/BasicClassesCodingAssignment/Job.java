@@ -11,6 +11,12 @@ public class Job
     // Experience in months
     int experience;
 
+    // Constructor
+    public Job()
+    {
+
+    }
+    
     String setTitle(String title)
     {
         return this.title = title;
