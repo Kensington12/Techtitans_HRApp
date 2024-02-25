@@ -1,4 +1,4 @@
-package com.example.HR_AppJava.BasicClassesCodingAssignment;
+package src.main.java.com.example.HR_AppJava.BasicClassesCodingAssignment;
 public class Person {
     
     private String name;
