@@ -1,8 +1,14 @@
+//Austin Bell
+// CSC 325 Classes Assignment
+
 package com.example.HR_AppJava.BasicClassesCodingAssignment;
 
+
+// Sets a job title and experience level in months, gets the title and experience, and finally displays the job title and experience
 public class Job 
 {
     String title;
+    // Experience in months
     int experience;
 
     String setTitle(String title)
@@ -25,6 +31,7 @@ public class Job
         setExperience(experience);
     }
 
+    //Displays the job title and experience in a structured output
     void displayDetails()
     {
         System.out.println("-- Jobs --");
