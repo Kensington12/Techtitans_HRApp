@@ -1,4 +1,4 @@
-package src.main.java.com.example.HR_AppJava.BasicClassesCodingAssignment;
+package com.example.HR_AppJava.BasicClassesCodingAssignment;
 
 public class HardSkill {
     // Field to store the title of the hard skill

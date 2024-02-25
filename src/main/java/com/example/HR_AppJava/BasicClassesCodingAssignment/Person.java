@@ -1,4 +1,4 @@
-package src.main.java.com.example.HR_AppJava.BasicClassesCodingAssignment;
+package com.example.HR_AppJava.BasicClassesCodingAssignment;
 public class Person {
     
     private String name;
@@ -33,6 +33,7 @@ public class Person {
     public void displayDetails() {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
+        System.out.println("");
     }
 }
 

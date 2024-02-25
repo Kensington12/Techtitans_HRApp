@@ -1,10 +1,10 @@
-package src.main.java.com.example.HR_AppJava.BasicClassesCodingAssignment;
+package com.example.HR_AppJava.BasicClassesCodingAssignment;
 
 public class Main {
     
     public static void main(String[] args) {
         //Created a job instance
-        Job job = new Job();
+        Job job = new Job("Software Engineer", 42);
 
         //Created a person instance
         Person person = new Person("John Doe", 25);
