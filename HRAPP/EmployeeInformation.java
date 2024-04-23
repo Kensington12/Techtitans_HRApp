@@ -6,6 +6,7 @@ public class EmployeeInformation extends tempArray {
     Scanner scn = new Scanner(System.in);
     // Variable declarations
     String userName;
+    String password;
     String userAddress;
     String phoneNumber;
     String empEmail;
@@ -18,8 +19,9 @@ public class EmployeeInformation extends tempArray {
     String softSkill;
 
     //Constructor
-    public EmployeeInformation(String userName, String userAddress, String phoneNumber, String empEmail, String previousJob, String currentJob, String supervisor, String companyName, String experience, String hardSkill, String softSkill) {
+    public EmployeeInformation(String userName, String password, String userAddress, String phoneNumber, String empEmail, String previousJob, String currentJob, String supervisor, String companyName, String experience, String hardSkill, String softSkill) {
         this.userName = userName;
+        this.password = password;
         this.userAddress = userAddress;
         this.phoneNumber = phoneNumber;
         this.empEmail = empEmail;
@@ -35,6 +37,9 @@ public class EmployeeInformation extends tempArray {
     //Setters
     public void setUserName(String userName) {
         this.userName = userName;
+    }
+    public void setPassword(String password) {
+        this.password = password;
     }
     public void setUserAddress(String userAddress) {
         this.userAddress = userAddress;
@@ -72,6 +77,9 @@ public class EmployeeInformation extends tempArray {
     public String getUserName() {
         return userName;
     }
+    public String getPassword() {
+        return password;
+    }
     public String getUserAddress() {
         return userAddress;
     }
@@ -107,6 +115,8 @@ public class EmployeeInformation extends tempArray {
     public void obtainEmpValues() {
         System.out.print("Enter the employee's name: ");
         setUserName(scn.nextLine());
+        System.out.print("Create a password for the employee: ");
+        setPassword(scn.nextLine());
         System.out.print("Enter the employee's street address: ");
         setUserAddress(scn.nextLine());
         System.out.print("Enter the employee's phone number: ");
@@ -127,7 +137,7 @@ public class EmployeeInformation extends tempArray {
         setHardSkill(scn.nextLine());
         System.out.print("List the employee's soft skills: ");
         setSoftSkill(scn.nextLine());
-        addArray(new String[] {userName, userAddress, phoneNumber, empEmail, previousJob, currentJob, supervisor, companyName, experience, hardSkill, softSkill});
+        addArray(new String[] {userName, password, userAddress, phoneNumber, empEmail, previousJob, currentJob, supervisor, companyName, experience, hardSkill, softSkill});
     }
 }
 
