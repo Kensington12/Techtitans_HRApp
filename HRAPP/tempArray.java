@@ -3,7 +3,7 @@ package HRAPP;
 import java.util.ArrayList;
 
 public class tempArray {
-    private ArrayList<Object[]> arrays;
+     ArrayList<Object[]> arrays;
 
     public tempArray() {
         arrays = new ArrayList<>();
@@ -56,7 +56,7 @@ public class tempArray {
     public void readItemsInArray(int arrayIndex) {
         if (arrayIndex >= 0 && arrayIndex < arrays.size()) {
             Object[] array = arrays.get(arrayIndex);
-            System.out.print("Items in array " + arrayIndex + ": ");
+            System.out.print("Items for employee " + arrayIndex + ": ");
             for (Object item : array) {
                 System.out.print(item + " ");
             }

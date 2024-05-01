@@ -12,11 +12,18 @@ public class Main {
         evaluation.addArray(new String[] {"Jane Doe", "Dr.Raj", "10/20/23", "Positive", "Overall very strong performance, she always meets delivery dates."});
 
        
-        employeeInformation.readItemsInArray(0);
-        employeeInformation.obtainEmpValues();
-        employeeInformation.readItemsInArray(1);
-        evaluation.readItemsInArray(0);
-        evaluation.obtainEvalValues();
-
+       // employeeInformation.readItemsInArray(0);
+       // employeeInformation.obtainEmpValues();
+       // employeeInformation.readItemsInArray(1);
+       // evaluation.readItemsInArray(0);
+       // evaluation.obtainEvalValues();
+       employeeInformation.deleteEmp();
+       employeeInformation.displayEmp();
+       evaluation.deleteEval();
+       evaluation.displayEval();
+       // employeeInformation.editAccountInformation();
+       // employeeInformation.readItemsInArray(0);
+      //  evaluation.editAccountInformation();
+      //  evaluation.readItemsInArray(0);
     }
 }
